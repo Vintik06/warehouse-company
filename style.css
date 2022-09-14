@@ -40,6 +40,9 @@ a {
     text-decoration: none;
     color: white;
 }
+a:hover {
+    color: red;
+}
 img {
     width: 100%;
     height: 100%;
@@ -102,16 +105,18 @@ form {
 input::placeholder {
     font-family: 'Roboto';
     font-style: normal;
-    padding: 13px;
 }
 input {
-    width: 275px;
-    height: 39.43px;
+    padding: 18px;
 }
 .send {
     width: 280px;
     height: 39.43px;
     background-color: #FFE100;
+    cursor: pointer;
+}
+.send:hover {
+    background-color: red;
 }
 main {
     display: flex;
